@@ -13,3 +13,6 @@ abef
 
 # Problem 3: Finding the first difference across multiple lines (multiline_diff function)
 Next, you will write a function called multiline_diff that takes two lists of single line strings. You may assume that the strings within the lists are all single lines. The function returns a tuple that indicates the line and index within that line where the first difference between the two lists occurs.  If the contents of the two lists are the same, the function should return the tuple (IDENTICAL, IDENTICAL).
+
+# Problem 4: Getting lines from a file (get_file_lines)
+Next, you will write a function called get_file_lines that takes a filename as input. You may assume that the input names a file that exists and is readable. The function returns a list of single line strings, where each element of the list is one line from the file. The strings within the returned list should not contain any newline or carriage return ("\n" or "\r") characters.
