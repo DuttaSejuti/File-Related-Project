@@ -7,9 +7,9 @@ First, you will write a function called singleline_diff that takes two single li
 # Problem 2: Presenting the differences between two lines in a nicely formatted way (singleline_diff_format function)
 Next, you will write a function called singleline_diff_format that takes two single line strings and the index of the first difference and will generate a formatted string that will allow a user to clearly see where the first difference between two lines is located. A user is likely going to want to see where the difference is in the context of the lines, not just see a number. Your function will return a three line string that looks as follows:
 
-abcd
-==^
-abef
+abcd <br />
+==^ <br />
+abef <br />
 
 # Problem 3: Finding the first difference across multiple lines (multiline_diff function)
 Next, you will write a function called multiline_diff that takes two lists of single line strings. You may assume that the strings within the lists are all single lines. The function returns a tuple that indicates the line and index within that line where the first difference between the two lists occurs.  If the contents of the two lists are the same, the function should return the tuple (IDENTICAL, IDENTICAL).
